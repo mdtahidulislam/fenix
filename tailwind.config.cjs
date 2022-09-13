@@ -25,10 +25,10 @@ module.exports = {
       },
       backgroundImage: {
         'hero-banner': "url('../images/home/banner.jpg')",
-        'slider-bg-1': "url('../images/slider/slider-1.jpg')",
-        'slider-bg-2': "url('../images/slider/slider-2.jpg')",
-        'slider-bg-3': "url('../images/slider/slider-3.jpg')",
-        'slider-bg-4': "url('../images/slider/slider-4.jpg')",
+        'slider-bg-1': "url('../images/slider/slider-1.jpeg')",
+        'slider-bg-2': "url('../images/slider/slider-2.jpeg')",
+        'slider-bg-3': "url('../images/slider/slider-3.jpeg')",
+        'slider-bg-4': "url('../images/slider/slider-4.jpeg')",
       },
       screens: {
         fourkxl: {'min': '2500px'},
