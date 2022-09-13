@@ -13,47 +13,22 @@
         // },
         loop: true,
         speed: 2500,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: true,
-        },
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: true,
+        // },
         pagination: {
           el: ".swiper-pagination",
           type: "bullets",
           clickable: true,
         },
       });
-      $(".home-slider").mouseenter(function () {
-        swiper.autoplay.stop();
-      });
-      $(".home-slider").mouseleave(function () {
-        swiper.autoplay.start();
-      });
-      
-
-      // review slider
-      const reviewSwiper = new Swiper(".review-slide", {
-        // effect: 'fade',
-        // fadeEffect: {
-        //   crossFade: true
-        // },
-        loop: true,
-        speed: 1500,
-        autoplay: {
-          delay: 1500,
-          disableOnInteraction: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-      $(".review-slide").mouseenter(function () {
-        reviewSwiper.autoplay.stop();
-      });
-      $(".review-slide").mouseleave(function () {
-        reviewSwiper.autoplay.start();
-      });
+      // $(".home-slider").mouseenter(function () {
+      //   swiper.autoplay.stop();
+      // });
+      // $(".home-slider").mouseleave(function () {
+      //   swiper.autoplay.start();
+      // });
 
       // menu 
       $('.js-menu-bar').on('click', function() {

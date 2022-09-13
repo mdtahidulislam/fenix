@@ -428,6 +428,21 @@
   }
 }
 
+@media (min-width: 1281px) and (max-width: 2590px) {
+  /* fourkxl:max-w-[900px] fourksm:gap-[2vw] fourksm:max-w-[871px] fourksm:px-[44px] fourksm:py-[44px] */
+  .mission-partner {
+    max-width: 874px !important;
+    padding: 45px !important;
+  }
+}
+
+@media (min-width: 2591px) {
+  .mission-partner {
+    max-width: 900px !important;
+    padding: 55px !important;
+  }
+}
+
 
 
 
