@@ -73,7 +73,7 @@
       $('.js-mobile-menu-close').on('click', function(){
         $('.js-mobile-menu').removeClass('open');
       });
-
+      
       
       // const tabelements = [
       //   {
