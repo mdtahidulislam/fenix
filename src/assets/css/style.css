@@ -1509,6 +1509,10 @@ video {
   max-width: 77.5vw;
 }
 
+.max-w-\[85\.5vw\] {
+  max-width: 85.5vw;
+}
+
 .flex-\[0_0_9\.375vw\] {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 9.375vw;
